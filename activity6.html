@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CPU SCHEDULING</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h2>CPU Scheduling</h2>
+        <table border="1" width="100%">
+            <tr>
+                <th>Process</th>
+                <th>AT</th>
+                <th>BT</th>
+                <th>CT</th>
+                <th>TAT</th>
+                <th>WT</th>
+            </tr>
+            <tr>
+                <td>P1</td>
+                <td>3</td>
+                <td>5</td>
+                <td>8</td>
+                <td>5</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>P2</td>
+                <td>4</td>
+                <td>2</td>
+                <td>12</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>P3</td>
+                <td>6</td>
+                <td>4</td>
+                <td>16</td>
+                <td>10</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>P4</td>
+                <td>16</td>
+                <td>3</td>
+                <td>19</td>
+                <td>3</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>P5</td>
+                <td>7</td>
+                <td>17</td>
+                <td>36</td>
+                <td>29</td>
+                <td>12</td>
+            </tr>
+        </table>
+
+        <table style="width:100%; margin-top:10px; border-collapse:collapse;">
+            <tr>
+                <td style="width:83.33%;"></td>
+                <td style="text-align:center;">51÷5=10.2</td>
+                <td style="text-align:center;">20÷3=6.66</td>
+            </tr>
+        </table>
+         <p>TAT=10.2</p>
+         <p>WT=6.66</p>
+
+        <h3>GANTT CHART</h3>
+        <br>
+        <br>
+        <table border="1" width="100%">
+            <tr>
+                <td>IDLE</td>
+                <td>P1</td>
+                <td>P2</td>
+                <td>P3</td>
+                <td>P4</td>
+                <td>P5</td>
+            </tr>
+        </table>
+
+        <div class="gantt-times">
+            <span>0</span>
+            <span>3</span>
+            <span>8</span>
+            <span>12</span>
+            <span>16</span>
+            <span>19</span>
+            <span>29</span>
+        </div>
+    </body>
+</html>
